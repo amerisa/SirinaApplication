@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SirinaApplication</string>
-    <string name="first_name">Hello from here</string>
+    <string name="spiderella">Eimai mia gata pro</string>
+    <string name="luna">Eimai kai go soi tis Spiderella</string>
+    <string name="pastaFlora">Eimai soi tis Spiderella</string>
+    <string name="koubaki">pata me</string>
 </resources>

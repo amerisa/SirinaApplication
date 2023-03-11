@@ -7,12 +7,46 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/spiderella"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_name"
+        android:textColor="@color/red"
+        android:text="@string/spiderella"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/luna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luna"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/spiderella" />
+
+    <TextView
+        android:id="@+id/pastaflora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pastaFlora"
+        app:layout_constraintBottom_toBottomOf="@id/spiderella"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/koubi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/koubaki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
