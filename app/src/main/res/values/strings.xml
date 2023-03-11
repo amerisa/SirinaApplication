@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SirinaApplication</string>
+    <string name="first_name">Hello from here</string>
 </resources>
